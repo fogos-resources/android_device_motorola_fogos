@@ -270,6 +270,12 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     Tag
 
+# Parts
+ifeq ($(TARGET_INCLUDES_DolbyVision),true)
+PRODUCT_PACKAGES += \
+    MotoParts
+endif
+
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
