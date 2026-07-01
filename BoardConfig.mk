@@ -193,6 +193,7 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/fsg:/fsg
 
 # SELinux
+include device/lineage/sepolicy/libion/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 PRODUCT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
