@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from fogos device
 $(call inherit-product, device/motorola/fogos/device.mk)
 
+TARGET_INCLUDES_OEM_App := true
+TARGET_INCLUDES_DolbyVision := true
+
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
