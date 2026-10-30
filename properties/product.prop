@@ -1,3 +1,12 @@
+# Audio
+audio.record.delay=180
+
+# Radio
+persist.vendor.rcs.presence.provision=0
+
+# eBPF
+ro.bpf.kver_override=5.10.239
+
 # Esim menu
 esim.enable_esim_system_ui_by_default=true
 masterclear.allow_retain_esim_profiles_after_fdr=true
