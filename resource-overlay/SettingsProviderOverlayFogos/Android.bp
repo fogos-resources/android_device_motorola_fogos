@@ -1,0 +1,18 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+runtime_resource_overlay {
+    name: "SettingsProviderOverlayFogos",
+    sdk_version: "current",
+    vendor: true,
+}
+
+runtime_resource_overlay {
+    name: "SettingsProviderOverlayFogosXT2363-8",
+    resource_dirs: ["res-XT2363-8"],
+    manifest: "AndroidManifest-XT2363-8.xml",
+    sdk_version: "current",
+    vendor: true,
+}
