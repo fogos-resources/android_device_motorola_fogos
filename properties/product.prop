@@ -10,3 +10,12 @@ ro.bpf.kver_override=5.10.239
 # Esim menu
 esim.enable_esim_system_ui_by_default=true
 masterclear.allow_retain_esim_profiles_after_fdr=true
+
+# MistOS
+ro.mist.display=1600 x 720, 120 hz
+ro.mist.battery=5000mah
+ro.mist.soc=Snapdragon® 695
+ro.mist.camera=50MP + 2MP
+ro.mist.front=16MP
+ro.mist.platform=SM6375
+ro.mist.screen=6.5' IPS LCD

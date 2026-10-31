@@ -29,7 +29,7 @@ clone_if_missing() {
 }
 
 # Device
-clone_if_missing "https://github.com/fogos-resources/android_device_motorola_fogos.git" "17" "device/motorola/fogos"
+clone_if_missing "https://github.com/fogos-resources/android_device_motorola_fogos.git" "mist" "device/motorola/fogos"
 # Vendor
 clone_if_missing "https://github.com/fogos-resources/proprietary_vendor_motorola_fogos.git" "17" "vendor/motorola/fogos"
 # Kernel
