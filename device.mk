@@ -58,7 +58,7 @@ ifeq ($(TARGET_IS_VAB),true)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 endif
 
-ifeq ($(TARGET_BUILD_VARIANT),user)
+ifeq ($(WITH_GMS),true)
     AB_OTA_POSTINSTALL_CONFIG += \
         RUN_POSTINSTALL_system=true \
         POSTINSTALL_PATH_system=system/bin/otapreopt_script \
