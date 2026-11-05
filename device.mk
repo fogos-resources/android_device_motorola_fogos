@@ -202,9 +202,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.visibility_control@1.0.vendor \
     android.hardware.gnss@2.1.vendor
 
-# Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
-
 # Camera extension for torch slider
 $(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.motorola_fogos)
 
