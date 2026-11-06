@@ -807,7 +807,7 @@ system/framework/com.motorola.frameworks.core.addon.jar
 system/framework/com.motorola.motosignature.jar
 system/framework/moto-core_services.jar
 product/app/MotCamera3AI/MotCamera3AI.apk:system_ext/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
-product/priv-app/MotCamera4/MotCamera4.apk:system_ext/priv-app/MotCamera4/MotCamera4.apk;PRESIGNED|9ce3c95cc55f7a15041ab73493f0dde8c675459d
+product/priv-app/MotCamera4/MotCamera4.apk:system_ext/priv-app/MotCamera4/MotCamera4.apk;PRESIGNED|c3484e2531f99c28b8b685a7dddb0c0735df5c0b
 system_ext/framework/com.motorola.hardware.camera.desktop.jar
 system_ext/framework/com.motorola.imager.v.jar
 system_ext/framework/com.motorola.libimgTuner.jar

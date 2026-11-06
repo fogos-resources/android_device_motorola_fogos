@@ -1,22 +1,21 @@
-From 3882ef22cf0d1db3c4bdd1e88b2ecc1c0ffa0787 Mon Sep 17 00:00:00 2001
+From 1896abb1489fd0b51481a02833ebe84d3ed2a554 Mon Sep 17 00:00:00 2001
 From: Andrew Hexen <SyberHexen@gmail.com>
-Date: Thu, 25 May 2023 11:51:44 -0700
+Date: Fri, 6 Nov 2026 16:23:53 +0000
 Subject: [PATCH 3/4] ims: remove uses-library for moto-ims-ext
 
 * This was added in 13 which breaks ims:
 'java.lang.ClassNotFoundException org/codeaurora/ims/utils/QtiCarrierConfigHelper/ImsService.java'
 
 Signed-off-by: Andrew Hexen <SyberHexen@gmail.com>
-1c910a
 ---
- AndroidManifest.xml | 3 +--
- 1 file changed, 1 insertion(+), 2 deletions(-)
+ AndroidManifest.xml | 1 -
+ 1 file changed, 1 deletion(-)
 
 diff --git a/AndroidManifest.xml b/AndroidManifest.xml
-index 894956d..e7fba97 100644
+index 894956d..fdd349a 100644
 --- a/AndroidManifest.xml
 +++ b/AndroidManifest.xml
-@@ -51,9 +51,8 @@
+@@ -51,7 +51,6 @@
          </service>
          <service android:enabled="true" android:exported="true" android:name=".QtiImsExtService" android:permission="com.qti.permission.BIND_QTI_IMS_SERVICE" android:singleUser="true"/>
          <uses-library android:name="moto-telephony"/>
@@ -24,8 +23,6 @@ index 894956d..e7fba97 100644
          <uses-library android:name="qti-telephony-hidl-wrapper"/>
          <uses-library android:name="qti-telephony-utils"/>
          <uses-library android:name="ims-ext-common"/>
-     </application>
- </manifest>
 -- 
-2.49.0
+2.43.0
 
