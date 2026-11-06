@@ -36,6 +36,6 @@ clone_if_missing "https://github.com/fogos-resources/proprietary_vendor_motorola
 clone_if_missing "https://github.com/fogos-resources/android_kernel_motorola_sm6375.git" "16.2" "kernel/motorola/sm6375"
 # Hardware
 clone_if_missing "https://github.com/fogos-resources/android_hardware_motorola.git" "16.2" "hardware/motorola"
-clone_if_missing "https://github.com/fogos-resources/android_hardware_dolby.git" "16.0" "hardware/dolby"
+clone_if_missing "https://github.com/fogos-resources/hardware_dolby.git" "moto-16" "hardware/dolby"
 
 echo "--- Source Sync Complete ---"
