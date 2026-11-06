@@ -38,3 +38,5 @@ TARGET_DISABLE_MATLOG := true
 
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
 $(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
+
+TARGET_INCLUDES_OEM_App := true
