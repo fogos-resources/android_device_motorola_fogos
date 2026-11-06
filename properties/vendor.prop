@@ -310,6 +310,8 @@ ro.surface_flinger.has_wide_color_display=false
 ro.surface_flinger.set_display_power_timer_ms=2000
 ro.surface_flinger.set_idle_timer_ms=2000
 ro.surface_flinger.set_touch_timer_ms=2000
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
 ro.surface_flinger.use_smart_90_for_video=true
 vendor.hw.sf.IdleLazyResetThresholdT=1000
 
